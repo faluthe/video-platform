@@ -1,0 +1,8 @@
+.video-card {
+    border: none !important;
+    will-change: filter;
+    transition: filter 0.3s;
+}
+.video-card:hover {
+    filter: drop-shadow(0 0 2.5em #61dafb39);
+}

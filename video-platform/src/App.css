@@ -1,0 +1,28 @@
+.navbar-link {
+width: 36px;
+height: 30px;
+will-change: filter;
+transition: filter 0.3s;
+}
+.navbar-link:hover {
+filter: drop-shadow(0 0 2em #61dafbe1);
+}
+
+@keyframes logo-spin {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}
+
+.logo {
+width: 36px;
+height: 36px;
+animation: logo-spin infinite 20s linear;
+}
+
+.navbar-title {
+padding-left: 9px;
+}

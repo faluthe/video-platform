@@ -1,0 +1,8 @@
+.video-player {
+    padding-top: 15px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
